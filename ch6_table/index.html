@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        th, td{
+            border: 1px solid black
+        }
+        th{
+            background-color: blue;
+            color: aliceblue;
+        }
+        td{
+            background-color: rgb(0, 255, 166);
+        }
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+       
+            border-collapse: collapse;
+        }
+        tfoot{
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Train Schedule- Westport Grand Central</caption>
+        <thead>
+        <tr>
+            <th>Orign</th>
+            <th>Destination</th>
+            <th>Depenture time</th>
+            <th>Arrival time</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Westport, CT</td>
+            <td>Gravd cental station</td>
+            <td>8:00AM</td>
+            <td>9:30AM</td>
+        </tr>
+        <tr>
+            <td>Westport, CT</td>
+            <td>Gravd cental station</td>
+            <td>9:30AM</td>
+            <td>10:50AM</td>
+        </tr>
+        <tr>
+            <td>westport, CT</td>
+            <td>Gravd cental station</td>
+            <td>11:30AM</td>
+            <td>12:50PM</td>
+        </tr>
+        <tr>
+          <td>westport, CT</td>
+            <td>Gravd cental station</td>
+            <td>1:30PM</td>
+            <td>2:50PM</td>  
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Abdifatah commuter railroad</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
