@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="form container">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <label for="email">Email</label>
+      <input type="Email" id="email" placeholder="Enter your email" required />
+      <label for="passward">passward</label>
+      <input
+        type="password"
+        id="passward"
+        placeholder="Enter your passward"
+        required
+      />
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="07xxxxxxxx" />
+      <label for="Dob">Date Of Birth</label>
+      <input type="date" id="dob" required />
+      <label>Gender</label>
+      <div class="inline">
+        <input type="radio" name="gender" id="male" required />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </div>
+      <label for="course">Course</label>
+      <select id="course" required>
+        <option value="">Select your Course</option>
+        <option>Web Developmet</option>
+        <option>Graphic Design</option>
+        <option>Cyper Security</option>
+        <option>Data Analysis</option>
+      </select>
+      <label>Skills</label>
+      <div class="inline">
+        <input type="checkbox" id="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" id="CSS" />
+        <label for="css">CSS</label>
+        <input type="checkbox" id="javascript" />
+        <label for="javascript">JAVASCRIPT</label>
+        <input type="checkbox" id="python" />
+        <label for="python">PYTHON</label>
+      </div>
+      <label for="massege">About you</label>
+      <textarea
+        id="massege"
+        placeholder="write something About yourself"
+      ></textarea>
+      <div class="terms">
+        <input type="checkbox" id="terms" required />
+        <label for="terms">I agree to the terms and conditions</label>
+      </div>
+      <div class="buttons">
+        <button type="submit">Register</button>
+        <button type="reset" class="reset">Clear</button>
+      </div>
+    </form>
+  </body>
+</html>
